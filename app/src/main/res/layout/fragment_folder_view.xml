@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ >
+
+   <!-- <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="#fff">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mDeleteImageView"
+            android:src="@drawable/ic_delete_black_24dp"
+            />
+
+    </android.support.v7.widget.Toolbar>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mFolderRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true" />
+   <!-- <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_alignEnd="@+id/mFolderRecyclerView">
+        <ImageView
+            android:id="@+id/mGalleryImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignEnd="@+id/mFolderRecyclerView"
+            android:src="@drawable/ic_add_black_24dp"
+            android:layout_alignBottom="@+id/mFolderRecyclerView"/>
+
+
+
+    </LinearLayout>-->
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_alignEnd="@+id/mFolderRecyclerView">
+        <ImageView
+            android:id="@+id/mAddButtonImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignEnd="@+id/mFolderRecyclerView"
+            android:src="@drawable/ic_add_black_24dp"
+            android:layout_alignBottom="@+id/mFolderRecyclerView"/>
+
+
+
+    </LinearLayout>
+

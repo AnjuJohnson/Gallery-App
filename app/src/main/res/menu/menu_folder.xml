@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/selectAll"
+        android:title="Select All" />
+    <item
+        android:id="@+id/unSelectAll"
+        android:title="Unselect All" />
+    <item
+        android:id="@+id/lock"
+        android:title="Secure Selected" />
+    <item
+        android:id="@+id/delete"
+        android:title="Delete" />
+    <item
+        android:id="@+id/share"
+        android:title="Share" />
+    <item
+        android:id="@+id/copy"
+        android:title="Copy" />
+
+    <item
+        android:id="@+id/paste"
+        android:title="Paste" />
+    <item
+        android:id="@+id/settings"
+        android:title="Settings" />
+
+</menu>

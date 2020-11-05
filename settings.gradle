@@ -1,0 +1,1 @@
+include ':app', ':android-flipview-1.1.0'
